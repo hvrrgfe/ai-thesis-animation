@@ -1,0 +1,21 @@
+{
+  "name": "ai-thesis-animation",
+  "version": "1.0.0",
+  "description": "当预测被外包，人当何为——论人与AI的上下结构 | Remotion动画",
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion render src/Root.tsx MainComp out/video.mp4",
+    "render": "remotion render src/Root.tsx MainComp out/video.mp4 --codec=h264 --crf=18",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.529",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "4.0.529"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "typescript": "^5.7.0"
+  }
+}
