@@ -35,7 +35,7 @@ const SFX_POINTS = [
   { file: "sfx/sfx_intro.mp3", frame: 750, volume: 0.4 },      // Scene03 开始
   { file: "sfx/sfx_whoosh.mp3", frame: 1110, volume: 0.4 },    // Scene03 箭头1
   { file: "sfx/sfx_whoosh.mp3", frame: 1410, volume: 0.4 },    // Scene03 箭头2
-  { file: "sfx/sfx_warn.mp3", frame: 2050, volume: 0.5 },      // Scene03 危险提示
+  { file: "sfx/sfx_alarm.mp3", frame: 2050, volume: 0.5 },    // Scene03 危险提示
   { file: "sfx/sfx_intro.mp3", frame: 2700, volume: 0.4 },     // Scene04 开始
   { file: "sfx/sfx_ding.mp3", frame: 3300, volume: 0.5 },      // Scene04 "创造的核心工序"
   { file: "sfx/sfx_tech_hum.mp3", frame: 3500, volume: 0.3 },  // Scene04 科技氛围
@@ -51,11 +51,11 @@ const SFX_POINTS = [
   { file: "sfx/sfx_notify.mp3", frame: 11700, volume: 0.4 },   // Scene08 开始
   { file: "sfx/sfx_ding.mp3", frame: 12300, volume: 0.4 },     // Scene08 三件事
   { file: "sfx/sfx_alarm.mp3", frame: 13950, volume: 0.4 },    // Scene09 开始
-  { file: "sfx/sfx_warn.mp3", frame: 14700, volume: 0.5 },     // Scene09 危险
+  { file: "sfx/sfx_alarm.mp3", frame: 14700, volume: 0.5 },   // Scene09 危险
   { file: "sfx/sfx_tension.mp3", frame: 15000, volume: 0.3 },  // Scene09 紧张
   { file: "sfx/sfx_fanfare.mp3", frame: 16800, volume: 0.6 },  // Scene10 金句
   { file: "sfx/sfx_ding.mp3", frame: 17550, volume: 0.5 },     // Scene11 开始
-  { file: "sfx/sfx_resolve.mp3", frame: 17900, volume: 0.6 },  // 结尾收束
+  { file: "sfx/sfx_tech_hum.mp3", frame: 17900, volume: 0.6 }, // 结尾收束
 ];
 
 export const VideoComposition: React.FC = () => {
