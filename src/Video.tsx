@@ -66,13 +66,13 @@ export const VideoComposition: React.FC = () => {
   const bgmVolume = interpolate(
     frame,
     [
-      0, 300,    // 开头安静
-      750, 2700, // 概念讲解段
+      0, 300,     // 开头安静
+      750, 2700,  // 概念讲解段
       5400, 7200, // 结构段
       8550, 11700, // 论点一高潮
       13950, 16200, // 论点三高潮
-      16200, 17550, // 结论升华
-      17550, 18000, // 结尾
+      16500, 17550, // 结论升华
+      17700, 18000, // 结尾
     ],
     [
       0.15, 0.25,
@@ -81,7 +81,7 @@ export const VideoComposition: React.FC = () => {
       0.35, 0.35,
       0.35, 0.35,
       0.3, 0.4,
-      0.4, 0.3,
+      0.35, 0.3,
     ],
     { extrapolateLeft: "clamp", extrapolateRight: "clamp" }
   );
