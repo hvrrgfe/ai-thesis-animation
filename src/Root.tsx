@@ -1,8 +1,8 @@
 import React from "react";
-import { Composition } from "remotion";
+import { Composition, registerRoot } from "remotion";
 import { VideoComposition } from "./Video";
 
-export const RemotionRoot: React.FC = () => {
+const RemotionRoot: React.FC = () => {
   return (
     <>
       <Composition
@@ -16,3 +16,5 @@ export const RemotionRoot: React.FC = () => {
     </>
   );
 };
+
+registerRoot(RemotionRoot);
